@@ -1,0 +1,12 @@
+.firstHeader {
+	font-size: 70px;
+	font-weight: lighter;
+	color: chartreuse;
+	font-family: cursive;
+}
+.velvetHeader {
+	font-size: 70px;
+	font-weight: bolder;
+	color: darkviolet;
+	font-family: cursive;
+}
