@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import heading from 'src/components/heading/--tests--/heading.test.js';
+import Heading from '../heading';
 
 test('renders learn react link', () => {
-	render(<heading />);
+	render(<Heading />);
 	const linkElement = screen.getByTestId('greeting_header');
 	expect(linkElement).toBeInTheDocument();
 });
